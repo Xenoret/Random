@@ -10,7 +10,7 @@ import os, random #import libs
 os.system('cls||clear') # Clear terminal
 
 print('=====' *10)
-print('\t\tGolden ocin')
+print('\t\tGolden coin')
 print('=====' *10)
 
 def coin():
