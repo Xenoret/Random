@@ -12,9 +12,8 @@ os.system('cls||clear') # Clear terminal
 print('=====' *10)
 print('\t\tGolden ocin')
 print('=====' *10)
-eagle = 1
-tails = 2
-def coin(eagle, tails):
+
+def coin():
     print('This golden coin, will decide how you do\n')
     rand = random.randint(1, 3) # Random try value
     if rand == 1:
@@ -23,4 +22,4 @@ def coin(eagle, tails):
         print('Tails!\nGo back to code.')
     else:
         print('Rib coin!\nFree time.')
-coin(eagle, tails) #Write inputs
+coin() #Call def
