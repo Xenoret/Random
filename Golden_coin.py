@@ -26,4 +26,5 @@ def coin():
     
     else:
         print('Rib coin!\nFree time.')
+        
 coin() #Call def
